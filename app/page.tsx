@@ -40,18 +40,18 @@ export default function Component() {
 
   
   const categories = [
-    { name: "Smartphones", icon: "📱", count: 245 },
-    { name: "Ordinateurs", icon: "💻", count: 156 },
-    { name: "Audio", icon: "🎧", count: 189 },
-    { name: "Tablettes", icon: "📱", count: 98 },
-    { name: "Accessoires", icon: "🔌", count: 312 },
-    { name: "Gaming", icon: "🎮", count: 87 },
+    { name: "Smartphones", icon: "📱", count: 0 },
+    { name: "Ordinateurs", icon: "💻", count: 0 },
+    { name: "Audio", icon: "🎧", count: 0 },
+    { name: "Tablettes", icon: "📱", count: 0 },
+    { name: "Accessoires", icon: "🔌", count: 0 },
+    { name: "Gaming", icon: "🎮", count: 0 },
   ]
 
   const testimonials = [
     {
       id: 1,
-      name: "Aminata Traoré",
+      name: "cheick oumar traore",
       location: "Bamako",
       rating: 5,
       comment: "J'ai économisé plus de 200,000 FCFA sur mon iPhone ! Livraison rapide et produit authentique.",
@@ -59,8 +59,8 @@ export default function Component() {
     },
     {
       id: 2,
-      name: "Ibrahim Keita",
-      location: "Sikasso",
+      name: "SD Multi service",
+      location: "Bamako",
       rating: 5,
       comment: "Excellent service ! Les ventes flash sont vraiment intéressantes. Je recommande vivement FDM.",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face",
@@ -68,7 +68,7 @@ export default function Component() {
     {
       id: 3,
       name: "Fatoumata Coulibaly",
-      location: "Mopti",
+      location: "Bamako",
       rating: 5,
       comment: "Interface simple, paiement sécurisé avec Orange Money. Parfait pour nous au Mali !",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face",
@@ -204,12 +204,12 @@ const getVisibleDeals = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" className="bg-orange-600 hover:bg-orange-700 group">
                   <ShoppingBag className="mr-2 h-5 w-5" />
-                  Voir les offres
+                  <Link href="/boutique">Voir les offres</Link>
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button size="lg" variant="outline">
                   <Store className="mr-2 h-4 w-4" />
-                  Devenir vendeur
+                 <Link href="/devenir-vendeur">  Devenir vendeur </Link>
                 </Button>
               </div>
 

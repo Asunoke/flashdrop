@@ -123,8 +123,8 @@ export  function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-sm text-muted-foreground mb-4 md:mb-0">
-              <p>© 2024 Flash Deals Mali (FDM). Tous droits réservés.</p>
-              <p className="text-xs mt-1">RCCM: ML-BKO-2024-B-5678 | NIF: 098765432N</p>
+              <p>© 2024 Tenoble Softwares (TS). Tous droits réservés.</p>
+              
             </div>
             <div className="flex flex-wrap gap-6 text-sm text-muted-foreground">
               <Link href="/mentions-legales" className="hover:text-orange-600 transition-colors">
