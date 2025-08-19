@@ -84,7 +84,7 @@ export  function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/login" className="hover:text-orange-600 transition-colors">
+                <Link href="/auth/signin" className="hover:text-orange-600 transition-colors">
                   Espace vendeur
                 </Link>
               </li>
