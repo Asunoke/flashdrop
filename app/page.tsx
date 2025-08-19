@@ -55,7 +55,7 @@ export default function Component() {
       location: "Bamako",
       rating: 5,
       comment: "J'ai économisé plus de 200,000 FCFA sur mon iPhone ! Livraison rapide et produit authentique.",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face",
+      avatar: "https://cdn.pixabay.com/photo/2025/07/14/16/59/kananaskis-9714444_1280.jpg",
     },
     {
       id: 2,
