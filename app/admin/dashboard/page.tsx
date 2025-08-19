@@ -416,10 +416,7 @@ export default function AdminDashboard() {
 
   const sidebarItems = [
     { icon: LayoutDashboard, label: "Dashboard", href: "#", active: true },
-    { icon: Package, label: "Produits", href: "#products" },
-    { icon: FileText, label: "Articles", href: "#posts" },
-    { icon: ShoppingCart, label: "Commandes", href: "#orders" },
-    { icon: Users, label: "Utilisateurs", href: "#users" },
+    
   ]
 
   if (loading) {
@@ -447,7 +444,7 @@ export default function AdminDashboard() {
                 </div>
                 <div>
                   <h2 className="font-bold text-lg text-foreground">FDM</h2>
-                  <p className="text-sm text-muted-foreground">Admin Dashboard</p>
+                  
                 </div>
               </div>
             </div>

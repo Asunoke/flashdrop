@@ -65,11 +65,11 @@ export default function AboutPage() {
           <h3 className="text-3xl font-bold text-red-500 mb-8 text-center">Nos Chiffres Clés</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="text-3xl font-bold text-orange-500 mb-2">10+</div>
+              <div className="text-3xl font-bold text-orange-500 mb-2">4+</div>
               <div className="text-gray-700">Vendeurs actifs</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
-              <div className="text-3xl font-bold text-orange-500 mb-2">250k+ FCFA</div>
+              <div className="text-3xl font-bold text-orange-500 mb-2">25k+ FCFA</div>
               <div className="text-gray-700">Transactions</div>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">

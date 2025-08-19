@@ -121,10 +121,9 @@ export default function BlogPage() {
           <div className="flex justify-center mb-4">
             <BookOpen className="w-16 h-16 text-purple-200" />
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Blog Evotech Mali</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Blog </h1>
           <p className="text-xl mb-8 text-purple-100 max-w-2xl mx-auto">
-            Découvrez nos derniers articles sur la technologie, l'innovation et les tendances du secteur IT au Mali et
-            en Afrique.
+            Découvrez nos derniers articles 
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-purple-600 hover:bg-gray-100">

@@ -12,7 +12,6 @@ const menuItems = [
   { href: "/about", label: "À propos", icon: Info },
   { href: "/boutique", label: "Boutique", icon: ShoppingBag },
   { href: "/blog", label: "Blog", icon: BookOpen },
-  { href: "/carrieres", label: "Carrières", icon: Users },
   { href: "#contact", label: "Contact", icon: Phone },
   { href: "/auth/signin", label: "Dashboard", icon: User },
 ]
