@@ -216,11 +216,11 @@ const getVisibleDeals = () => {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-4 mt-12">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-600">50K+</div>
+                  <div className="text-2xl font-bold text-orange-600">5+</div>
                   <div className="text-sm text-muted-foreground">Clients satisfaits</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-orange-600">1000+</div>
+                  <div className="text-2xl font-bold text-orange-600">10+</div>
                   <div className="text-sm text-muted-foreground">Produits vendus</div>
                 </div>
                 <div className="text-center">
@@ -514,7 +514,7 @@ const getVisibleDeals = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-foreground mb-4">Ce que disent nos clients</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Plus de 50,000 clients satisfaits nous font confiance
+              Plus de 5 clients satisfaits nous font confiance
             </p>
           </div>
 
