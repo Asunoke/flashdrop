@@ -558,7 +558,7 @@ const getVisibleDeals = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="bg-white text-orange-600 hover:bg-gray-100">
               <ShoppingBag className="mr-2 h-5 w-5" />
-              Commencer à acheter
+              <Link href="/boutique">Commencer à acheter</Link>
             </Button>
             <Button
               size="lg"
@@ -566,7 +566,7 @@ const getVisibleDeals = () => {
               className="border-white text-white hover:bg-white hover:text-orange-600 bg-transparent"
             >
               <Store className="mr-2 h-5 w-5" />
-              Devenir vendeur
+              <Link href="/boutique">Devenir vendeur</Link>
             </Button>
           </div>
         </div>
